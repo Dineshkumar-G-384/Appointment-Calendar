@@ -32,7 +32,7 @@ function Login(){
                     </span>
                     <input className="form-control" 
                     type="email" 
-                    placeholder="Email" 
+                    placeholder="staff@clinic.com" 
                     style={{maxWidth:"300px"}}
                     value={user}
                     onChange={(e)=>setUser(e.target.value)} />
@@ -43,7 +43,7 @@ function Login(){
                     </span>
                     <input className="form-control" 
                     type="password" 
-                    placeholder="Password"
+                    placeholder="12345"
                     style={{maxWidth:"300px"}}
                     value={password}
                     onChange={(e)=>setPassword(e.target.value)}/>
